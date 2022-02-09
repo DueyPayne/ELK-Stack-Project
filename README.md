@@ -90,7 +90,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the filebeat-config.yml and [metricbeat.config.yml](https://github.com/DueyPayne/ELK-Stack-Project/blob/5e16a35253225e327cbbe1e78552167dd0bb2996/Ansible/metricbeat-playbook.yml) files to the ELK VM.
+- Copy the [filebeat-config.yml](https://github.com/DueyPayne/ELK-Stack-Project/blob/9d0be0c1694fcb638810aa5bb6a3620b4b3a2fb0/Ansible/filebeat-playbook.yml) and [metricbeat.config.yml](https://github.com/DueyPayne/ELK-Stack-Project/blob/5e16a35253225e327cbbe1e78552167dd0bb2996/Ansible/metricbeat-playbook.yml) files to the ELK VM.
 - Update the hosts file to include your webservers IP addresses. 10.0.0.4/10.0.0.5
 - Run the playbooks, and navigate to Kibana to check that the installation worked as expected.
 
